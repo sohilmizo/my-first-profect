@@ -9,6 +9,8 @@
 body{background-image: linear-gradient(to right top, #25b47e, #21a472, #1c9466, #18855b, #137650);
 flex:content;
 flex-direction: row;
+    width:100%;
+    height:100%;
 }
 
 section{
