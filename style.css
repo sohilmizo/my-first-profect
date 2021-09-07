@@ -1,0 +1,61 @@
+*{
+    border-radius: 12px;
+}
+
+
+
+
+
+body{background-image: linear-gradient(to right top, #25b47e, #21a472, #1c9466, #18855b, #137650);
+flex:content;
+flex-direction: row;
+}
+
+section{
+    background-color:gainsboro;
+    height: 450px;
+    width: 500px;
+    margin: 300px auto 0 auto ;
+    position: relative;
+    transition:all 1s;
+}
+section:hover{height: 600px;
+}
+img{height: 400px;
+    display:fixed;
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    top: -60px;
+    transition: all 1s;
+
+
+}
+.text{position: absolute;
+    font-family:'Anton', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size:25px;
+bottom:0px;
+padding: 10px; 
+text-align: center;
+opacity: 0;
+transition: all 0.4s;
+
+}
+
+.header{font-size: 50px; 
+    font-family: 'Anton', sans-serif;
+text-decoration: rgb(116, 247, 123);
+color: gainsboro;
+}
+
+section:hover .text{
+    
+    opacity: 1;
+}
+
+section:hover img {
+
+    top: -100px;
+    border-radius: 400px;
+    transform:rotate(720deg);}
